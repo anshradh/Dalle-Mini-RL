@@ -22,19 +22,19 @@ The results I got were not extremely promising, but I think there’s still evid
 
 Here are the summary statistics on the entire 50-sample batch, where before refers to the reference model and after refers to the trained policy model.
 
-![stats]()
+![stats](eval_stats.jpeg)
 
 Subjectively, the model does seem to output slightly less NSFW images in comparison to the reference model (on captions that lead to NSFW-ish images):
 
-![nsfw_comps]()
+![nsfw_comps](NSFWImageComps.jpeg)
 
 And the model isn’t obviously worse at some more normal captions:
 
-![good_sfw_comps]()
+![good_sfw_comps](SFWImageComps.jpeg)
 
 Though it is pretty obviously worse on some others…
 
-![bad_sfw_comps]()
+![bad_sfw_comps](MoreSFWImageComps.jpeg)
 
 ## Retrospective and Future Directions
 

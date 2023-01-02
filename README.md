@@ -3,7 +3,7 @@ Fine-tuning Dalle-Mini with RL to not produce NSFW images
 
 ## High-level Overview
 
-My final project was to train [DALL⋅E-Mini](https://github.com/borisdayma/dalle-mini) to not output NSFW images using RL. The reward signal was primarily provided from a [NSFW image classifier](https://github.com/LAION-AI/CLIP-based-NSFW-Detector) that was trained to read CLIP embeddings of images and output a probability of them being NSFW. The motivation for this project was to see how transferable RLHF was to text-to-image models, since its effectiveness for fine-tuning language models has already been amply demonstrated. There was no human feedback component to the training of this model, so this is more of a test-bed of how well Dalle-Mini can be fine-tuned with RL against a classifier more than how well it can be trained to match human preferences for/against NSFW images. 
+The goal of this project was to fine-tune [DALL⋅E-Mini](https://github.com/borisdayma/dalle-mini) to not output NSFW images using RL. The reward signal was primarily provided from a [NSFW image classifier](https://github.com/LAION-AI/CLIP-based-NSFW-Detector) that was trained to read CLIP embeddings of images and output a probability of them being NSFW. The motivation for this project was to see how transferable RLHF was to text-to-image models, since its effectiveness for fine-tuning language models has already been amply demonstrated. There was no human feedback component to the training of this model, so this is more of a test-bed of how well Dalle-Mini can be fine-tuned with RL against a classifier more than how well it can be trained to match human preferences for/against NSFW images. 
 
 ## Approach
 
